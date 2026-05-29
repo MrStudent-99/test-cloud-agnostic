@@ -1,2 +1,35 @@
 # cloud-agnostic-poc
-Hierin komt de YAML van testapp. ArgoCD gaat deze repo in de gaten houden.
+# Cloud Agnostic POC
+
+Proof of Concept voor cloud-agnostische deployments.
+
+## Technologieën
+
+- Docker
+- Kubernetes
+- ArgoCD
+- GitOps
+- Terraform
+- Azure Container Apps
+- Google Cloud Run
+
+## Architectuur
+
+GitHub
+↓
+ArgoCD
+↓
+Kubernetes
+↓
+Docker Container
+
+## Doel
+
+Aantonen dat dezelfde containerized applicatie kan draaien op:
+
+- Lokaal (Docker Compose)
+- Kubernetes
+- Azure
+- Google Cloud
+
+zonder aanpassing van de applicatiecode.
