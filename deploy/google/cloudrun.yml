@@ -1,0 +1,14 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: myapp
+spec:
+  template:
+    spec:
+      containers:
+        - image: atrium5365/myapp:v1
+          env:
+            - name: CLOUD_PROVIDER
+              value: google
+          ports:
+            - containerPort: 8080

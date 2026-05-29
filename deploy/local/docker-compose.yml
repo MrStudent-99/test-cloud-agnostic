@@ -1,0 +1,7 @@
+services:
+  myapp:
+    image: atrium5365/myapp:v1
+    ports:
+      - "8080:8080"
+    environment:
+      - CLOUD_PROVIDER=local
