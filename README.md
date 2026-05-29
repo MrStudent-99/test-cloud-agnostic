@@ -1,4 +1,3 @@
-# cloud-agnostic-poc
 # Cloud Agnostic POC
 
 Proof of Concept voor cloud-agnostische deployments.
