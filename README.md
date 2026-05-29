@@ -14,13 +14,7 @@ Proof of Concept voor cloud-agnostische deployments.
 
 ## Architectuur
 
-GitHub
-↓
-ArgoCD
-↓
-Kubernetes
-↓
-Docker Container
+GitHub -> ArgoCD -> Kubernetes -> Docker Container
 
 ## Doel
 
