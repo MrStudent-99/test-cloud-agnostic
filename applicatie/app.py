@@ -14,7 +14,7 @@ def home():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cloud Agnostic POC</title>
+        <title>Cloud-agnostic POC</title>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
 
@@ -93,7 +93,7 @@ def home():
     </head>
     <body>
         <div class="container">
-            <h1>☁️ Cloud Agnostic POC</h1>
+            <h1>☁️ Cloud-agnostic POC</h1>
             <p class="subtitle">Running on Kubernetes with GitOps</p>
 
             <div class="status">✓ Application Running</div>
