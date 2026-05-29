@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: atrium5365/myapp:v2
+          image: atrium5365/myapp:v3
           env:
             - name: CLOUD_PROVIDER
               value: kubernetes
